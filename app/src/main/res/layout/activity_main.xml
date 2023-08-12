@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:animateLayoutChanges="true">
+
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--style="@style/NoSpaceActionBarTheme"-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--android:clipToPadding="true"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--android:minHeight="?attr/actionBarSize"-->
+        <!--app:contentInsetEnd="0dp"-->
+        <!--app:contentInsetLeft="0dp"-->
+        <!--app:contentInsetRight="0dp"-->
+        <!--app:contentInsetStart="0dp"-->
+        <!--app:popupTheme="@style/MyOptionMenuStyle"-->
+        <!--app:titleTextAppearance="@style/Toolbar.TitleText"-->
+        <!--app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>-->
+
+    <!--tab上方的显示区域-->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/line">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tx_err_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:gravity="center"
+        android:alpha="0.8"
+        android:background="@color/red"
+        android:layout_above="@+id/line"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:text="Ops~ please check your connection !"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@+id/main_radios"
+        android:background="@color/colorPrimary" />
+
+    <RadioGroup
+        android:id="@+id/main_radios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/color_main_bottom_tabs_bg"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/main_bottom_tabs_padding_bottom">
+
+        <RadioButton
+            android:id="@+id/rb_tab_home"
+            style="@style/main_bottom_tab"
+            android:drawableTop="@drawable/tab_first_selector"
+            android:text="@string/main_tab_first" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_video"
+            style="@style/main_bottom_tab"
+            android:drawableTop="@drawable/tab_second_selector"
+            android:text="@string/main_tab_second" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_funny"
+            style="@style/main_bottom_tab"
+            android:drawableTop="@drawable/tab_third_selector"
+            android:text="@string/main_tab_third" />
+
+        <RadioButton
+            android:id="@+id/rb_tab_settings"
+            style="@style/main_bottom_tab"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_forth_selector"
+            android:text="@string/main_tab_forth" />
+    </RadioGroup>
+
+
+</RelativeLayout>
+

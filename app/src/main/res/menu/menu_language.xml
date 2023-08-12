@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.celltick.apac.news.app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.HomeFragmentContainer">
+    <item
+        android:id="@+id/item_save"
+        android:icon="@drawable/ic_done"
+        android:orderInCategory="100"
+        android:title="save"
+        com.celltick.apac.news.app:showAsAction="always" />
+
+</menu>

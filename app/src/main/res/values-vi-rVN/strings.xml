@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">SM_API Demo</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="header_text">The Header</string>
+    <string name="footer_text">The Footer</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">Đang tải…</string>
+    <string name="list_footer_network_error">Nhấn vào đây để tiếp tục tải</string>
+    <string name="list_footer_end">Không còn nữa</string>
+
+    <!--time display format-->
+    <string name="publish_date_year">năm trước</string>
+    <string name="publish_date_month">tháng trước</string>
+    <string name="publish_date_day">ngày trước</string>
+    <string name="publish_date_hour">giờ trước</string>
+    <string name="publish_date_min">phút trước</string>
+    <string name="publish_date_now">Bây giờ</string>
+
+    <!-- additional categories -->
+    <string name="category_top">Phổ biến</string>
+    <string name="category_video">Hình ảnh</string>
+
+    <!-- country language dialog -->
+    <string name="dialog_cancel">Hủy bỏ</string>
+    <string name="dialog_submit">Lưu và khởi động lại</string>
+    <string name="dialog_title">Thông tin</string>
+    <string name="dialog_btn_cancel">Hủy bỏ</string>
+    <string name="dialog_btn_ok">Chia sẻ</string>
+
+    <!--tabs 简便用 first second third-->
+    <string name="main_tab_first">Trang chủ</string>
+    <string name="main_tab_second">Hình ảnh</string>
+    <string name="main_tab_third">Vui vẻ</string>
+    <string name="main_tab_forth">Cài đặt</string>
+
+    <string name="title_country_language">Đất nước/Ngôn ngữ</string>
+    <string name="title_template">Mẫu</string>
+    <string name="settings_night_mode">Chế độ ban đêm</string>
+    <string name="settings_version">Phiên bản</string>
+
+    <!--网络或请求错误返回提示 -->
+    <string name="err_return_no_connection">Này, vui lòng kiểm tra kết nối mạng của bạn</string>
+    <string name="err_return_timeout">Hết thời gian kết nối</string>
+    <string name="err_return_unknown">Lỗi không xác định</string>
+
+    <string name="exit_notice">Nhấn một lần nữa để thoát</string>
+
+    <!--设置中的收藏-分享-历史 -->
+    <string name="settings_favor">Bộ sưu tập</string>
+    <string name="settings_histroy">Lịch sử</string>
+    <string name="settings_share">Chia sẻ</string>
+
+    <!--country&language change -->
+    <string name="country_language">Đặt quốc gia và ngôn ngữ để xem thêm tin tức</string>
+    <string name="country_language_button_tx">Lưu và khởi động lại</string>
+
+    <!--template change -->
+    <string name="template_change">Chọn trang chi tiết tin tức để hiển thị mẫu</string>
+    <string name="template1">Mặc định</string>
+    <string name="template2">Mẫu2</string>
+    <string name="template3">Mẫu3</string>
+    <string name="template4">Mẫu4</string>
+    <string name="template5">Mẫu5</string>
+    <string name="template6">Mẫu6</string>
+    <string name="template7">Mẫu7</string>
+    <string name="template8">Mẫu8</string>
+    <string name="template9">Mẫu9</string>
+    <string name="template10">Mẫu10</string>
+
+
+
+</resources>

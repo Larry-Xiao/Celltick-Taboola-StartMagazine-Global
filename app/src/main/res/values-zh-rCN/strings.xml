@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SM_API Demo</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="header_text">The Header</string>
+    <string name="footer_text">The Footer</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">正在加载…</string>
+    <string name="list_footer_network_error">点击继续加载</string>
+    <string name="list_footer_end">没有更多了</string>
+
+    <!--time display format-->
+    <string name="publish_date_year">年前</string>
+    <string name="publish_date_month">月前</string>
+    <string name="publish_date_day">天前</string>
+    <string name="publish_date_hour">小时前</string>
+    <string name="publish_date_min">分钟前</string>
+    <string name="publish_date_now">现在</string>
+
+    <!-- additional categories -->
+    <string name="category_top">推荐</string>
+    <string name="category_video">视频</string>
+
+    <!-- country language dialog -->
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_submit">保存并重启</string>
+    <string name="dialog_title">基本信息</string>
+    <string name="dialog_btn_cancel">取消</string>
+    <string name="dialog_btn_ok">分享</string>
+
+    <!--tabs 简便用 first second third-->
+    <string name="main_tab_first">首页</string>
+    <string name="main_tab_second">视频</string>
+    <string name="main_tab_third">乐趣</string>
+    <string name="main_tab_forth">设置</string>
+
+    <string name="title_country_language">国家/语言</string>
+    <string name="title_template">模板</string>
+    <string name="settings_night_mode">夜间模式</string>
+    <string name="settings_version">版本</string>
+
+    <!--网络或请求错误返回提示 -->
+    <string name="err_return_no_connection">噢~请检查您的网络！</string>
+    <string name="err_return_timeout">加载超时</string>
+    <string name="err_return_unknown">未知错误</string>
+
+    <string name="exit_notice">再点一次退出</string>
+
+    <!--设置中的收藏-分享-历史 -->
+    <string name="settings_favor">收藏</string>
+    <string name="settings_histroy">历史</string>
+    <string name="settings_share">分享</string>
+
+    <!--country&language change -->
+    <string name="country_language">更改国家和语言</string>
+    <string name="country_language_button_tx">保存并重启</string>
+
+    <!--template change -->
+    <string name="template_change">选择详情页展示模板</string>
+    <string name="template1">默认</string>
+    <string name="template2">模板2</string>
+    <string name="template3">模板3</string>
+    <string name="template4">模板4</string>
+    <string name="template5">模板5</string>
+    <string name="template6">模板6</string>
+    <string name="template7">模板7</string>
+    <string name="template8">模板8</string>
+    <string name="template9">模板9</string>
+    <string name="template10">模板10</string>
+
+
+</resources>

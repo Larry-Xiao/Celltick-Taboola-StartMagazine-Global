@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/NoSpaceActionBarTheme"
+        android:id="@+id/web_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fitsSystemWindows="true"
+        android:clipToPadding="true"
+        android:background="@color/color_webview_toolbar_bg"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.celltick.apac.news.widget.SmartSimpleDraweeView
+            android:id="@+id/web_cp_logo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:scaleType="centerCrop"
+            fresco:actualImageScaleType="focusCrop" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.celltick.apac.news.progresswebview.ProgressWebview
+        android:id="@+id/baseweb_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_webview"/>
+
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,92 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.celltick.apac.news"
+        minSdk 26
+        targetSdk 31
+        versionCode 400
+        versionName "4.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation  fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+//    implementation 'com.github.bumptech.glide:glide:3.5.2'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+
+    //视图注入
+    implementation  files('libs/jpush-android-2.0.6.jar')
+    //视图注入
+//    compile files('libs/butterknife-6.1.0.jar')
+//    compile 'com.jakewharton:butterknife:7.0.1'
+    //图片缓存
+    implementation  'com.facebook.fresco:fresco:0.9.0'
+    //StatusBar
+    implementation  'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    //MD
+    //    compile 'com.afollestad:material-dialogs:0.7.6.0'
+    implementation ('com.afollestad.material-dialogs:core:0.8.6.2@aar') {
+        transitive = true
+    }
+    //百度地图定位sdk
+    //数据库帮助类
+    implementation  'com.michaelpardo:activeandroid:3.1.0-SNAPSHOT'
+    //日历
+    implementation  'cn.aigestudio.datepicker:DatePicker:2.0.2'
+    //VpAnim 设置动画切换效果
+    implementation  'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    //gson 解析 json
+    // progressbar
+    implementation  'com.pnikosis:materialish-progress:1.7'
+    // SnackBar
+    implementation  'com.nispok:snackbar:2.11.0'
+    //解析json
+    //侧滑删除
+//    compile 'com.android.support:support-v4:24.+'
+    implementation  'com.daimajia.swipelayout:library:1.2.0@aar'
+    implementation  'com.github.orhanobut:logger:1.12'
+    //设置 material
+    //    compile 'com.github.kenumir:MaterialSettings:v.1.2.2'
+    implementation  'com.google.code.gson:gson:2.8.5'
+    implementation  'com.squareup.okhttp:okhttp:2.4.0'
+    implementation  'com.squareup.okio:okio:1.15.0'
+    implementation  'com.github.jorgecastilloprz:fabprogresscircle:1.01@aar'
+
+    configurations.all {
+        resolutionStrategy.force 'com.android.support:support-annotations:22.1.0'
+    }
+
+}
+
+
+

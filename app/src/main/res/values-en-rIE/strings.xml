@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">SM_API Demo</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="header_text">The Header</string>
+    <string name="footer_text">The Footer</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">loading…</string>
+    <string name="list_footer_network_error">click to load again</string>
+    <string name="list_footer_end">the end</string>
+
+    <!--time display format-->
+    <string name="publish_date_year">year ago</string>
+    <string name="publish_date_month">month ago</string>
+    <string name="publish_date_day">days ago</string>
+    <string name="publish_date_hour">hours ago</string>
+    <string name="publish_date_min">mins ago</string>
+    <string name="publish_date_now">now</string>
+
+    <!-- additional categories -->
+    <string name="category_top">For you</string>
+    <string name="category_video">Video</string>
+
+    <!-- country language dialog -->
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_submit">Save and Restart</string>
+    <string name="dialog_title">User Info</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_btn_ok">Share</string>
+
+    <!--tabs 简便用 first second third-->
+    <string name="main_tab_first">Home</string>
+    <string name="main_tab_second">Video</string>
+    <string name="main_tab_third">Funny</string>
+    <string name="main_tab_forth">Settings</string>
+
+    <string name="title_country_language">Country/Language</string>
+    <string name="title_template">Templates</string>
+    <string name="settings_night_mode">Night Mode</string>
+    <string name="settings_version">Version</string>
+
+    <!--网络或请求错误返回提示 -->
+    <string name="err_return_no_connection">Ops~ please check your connection !</string>
+    <string name="err_return_timeout">timed out</string>
+    <string name="err_return_unknown">unknown error</string>
+
+    <string name="exit_notice">Click Again to Exit</string>
+
+    <!--设置中的收藏-分享-历史 -->
+    <string name="settings_favor">My Favors</string>
+    <string name="settings_histroy">Histroy</string>
+    <string name="settings_share">My Shares</string>
+
+    <!--country&language change -->
+    <string name="country_language">Change country and language to review more news!</string>
+    <string name="country_language_button_tx">Save and Restart</string>
+
+    <!--template change -->
+    <string name="template_change">Select the template will see new UI of the article page!</string>
+    <string name="template1">Default</string>
+    <string name="template2">Template2</string>
+    <string name="template3">Template3</string>
+    <string name="template4">Template4</string>
+    <string name="template5">Template5</string>
+    <string name="template6">Template6</string>
+    <string name="template7">Template7</string>
+    <string name="template8">Template8</string>
+    <string name="template9">Template9</string>
+    <string name="template10">Template10</string>
+
+
+    <string-array name="settings_list">
+        <item>Change Country/Language</item>
+        <item>Version</item>
+    </string-array>
+
+
+</resources>

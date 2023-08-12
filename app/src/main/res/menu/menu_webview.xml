@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.celltick.apac.news.app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.HomeFragmentContainer">
+    <item
+        android:id="@+id/web_favor"
+        android:icon="@mipmap/ic_webview_favor_normal"
+        android:orderInCategory="100"
+        android:title="favor"
+        com.celltick.apac.news.app:showAsAction="always" />
+    <item
+        android:id="@+id/web_share"
+        android:icon="@mipmap/ic_share"
+        android:orderInCategory="100"
+        android:title="share"
+        com.celltick.apac.news.app:showAsAction="always" />
+
+</menu>

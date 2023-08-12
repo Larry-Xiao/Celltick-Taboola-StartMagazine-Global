@@ -1,0 +1,104 @@
+<!-- RecyclerView 的每一项布局-->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/bg_feed_list_cardview"
+    android:layout_margin="5dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:focusable="true"
+    android:enabled="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@color/bg_feed_list_cardview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/article_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:maxLines="2"
+            android:text=""
+            android:textColor="@color/article_title_color"
+            android:textSize="@dimen/list_title_size" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <!--actualImageScaleType=focusCrop 缩放使得人像在中间-->
+
+            <com.celltick.apac.news.widget.SmartSimpleDraweeView
+                android:id="@+id/article_pic1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/image_bg_color"
+                fresco:actualImageScaleType="focusCrop" />
+
+            <com.celltick.apac.news.widget.SmartSimpleDraweeView
+                android:id="@+id/article_pic2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/image_bg_color"
+                fresco:actualImageScaleType="focusCrop" />
+
+            <com.celltick.apac.news.widget.SmartSimpleDraweeView
+                android:id="@+id/article_pic3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/image_bg_color"
+                fresco:actualImageScaleType="focusCrop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/item_article_3_images_publisher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="left"
+                android:text=""
+                android:textSize="@dimen/list_sub_size"
+                android:textColor="@color/article_sub_color" />
+
+            <TextView
+                android:id="@+id/item_article_3_images_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="right"
+                android:text=""
+                android:textSize="@dimen/list_sub_size"
+                android:textColor="@color/article_sub_color" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

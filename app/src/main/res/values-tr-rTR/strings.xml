@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">SM_API Demo</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="header_text">The Header</string>
+    <string name="footer_text">The Footer</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">yükleme…</string>
+    <string name="list_footer_network_error">Yüklemeye devam etmek için tıklayın</string>
+    <string name="list_footer_end">Daha fazla yok</string>
+
+    <!--time display format-->
+    <string name="publish_date_year">sene önce</string>
+    <string name="publish_date_month">ay önce</string>
+    <string name="publish_date_day">gün önce</string>
+    <string name="publish_date_hour">saat önce</string>
+    <string name="publish_date_min">dakika önce</string>
+    <string name="publish_date_now">şimdi</string>
+
+    <!-- additional categories -->
+    <string name="category_top">tavsiye</string>
+    <string name="category_video">görüntü</string>
+
+    <!-- country language dialog -->
+    <string name="dialog_cancel">iptal edildi</string>
+    <string name="dialog_submit">Kaydet ve yeniden başlat</string>
+    <string name="dialog_title">Temel bilgiler</string>
+    <string name="dialog_btn_cancel">iptal edildi</string>
+    <string name="dialog_btn_ok">hisse</string>
+
+    <!--tabs 简便用 first second third-->
+    <string name="main_tab_first">ev</string>
+    <string name="main_tab_second">görüntü</string>
+    <string name="main_tab_third">zevk</string>
+    <string name="main_tab_forth">kurmak</string>
+
+    <string name="title_country_language">ülke/dil</string>
+    <string name="title_template">şablon</string>
+    <string name="settings_night_mode">Gece modu</string>
+    <string name="settings_version">baskı</string>
+
+    <!--网络或请求错误返回提示 -->
+    <string name="err_return_no_connection">Hey ~ Lütfen ağınızı kontrol edin</string>
+    <string name="err_return_timeout">Zaman aşımını yükle</string>
+    <string name="err_return_unknown">Bilinmeyen hata</string>
+
+    <string name="exit_notice">Tekrar çık</string>
+
+    <!--设置中的收藏-分享-历史 -->
+    <string name="settings_favor">toplamak</string>
+    <string name="settings_histroy">tarih</string>
+    <string name="settings_share">hisse</string>
+
+    <!--country&language change -->
+    <string name="country_language">Ülkeyi ve dili değiştir</string>
+    <string name="country_language_button_tx">Kaydet ve yeniden başlat</string>
+
+    <!--template change -->
+    <string name="template_change">Ayrıntılar sayfasını görüntüleme şablonunu seçin</string>
+    <string name="template1">Standart</string>
+    <string name="template2">şablon2</string>
+    <string name="template3">şablon3</string>
+    <string name="template4">şablon4</string>
+    <string name="template5">şablon5</string>
+    <string name="template6">şablon6</string>
+    <string name="template7">şablon7</string>
+    <string name="template8">şablon8</string>
+    <string name="template9">şablon9</string>
+    <string name="template10">şablon10</string>
+
+
+
+</resources>

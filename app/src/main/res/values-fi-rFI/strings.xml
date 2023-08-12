@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SM_API Demo</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="header_text">The Header</string>
+    <string name="footer_text">The Footer</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">Chargement…</string>
+    <string name="list_footer_network_error">Cliquez pour continuer le chargement</string>
+    <string name="list_footer_end">Pas plus</string>
+
+    <!--time display format-->
+    <string name="publish_date_year">il y a un an</string>
+    <string name="publish_date_month">il y a un mois</string>
+    <string name="publish_date_day">il y a quelques jours</string>
+    <string name="publish_date_hour">il y a des heures</string>
+    <string name="publish_date_min">il y a quelques minutes</string>
+    <string name="publish_date_now">Maintenant</string>
+
+    <!-- additional categories -->
+    <string name="category_top">Recommandé</string>
+    <string name="category_video">Vidéo</string>
+
+    <!-- country language dialog -->
+    <string name="dialog_cancel">Annuler</string>
+    <string name="dialog_submit">Sauvegarder et redémarrer</string>
+    <string name="dialog_title">Informations de base</string>
+    <string name="dialog_btn_cancel">Annuler</string>
+    <string name="dialog_btn_ok">Partager</string>
+
+    <!--tabs 简便用 first second third-->
+    <string name="main_tab_first">Accueil</string>
+    <string name="main_tab_second">Vidéo</string>
+    <string name="main_tab_third">Amusant</string>
+    <string name="main_tab_forth">Réglage</string>
+
+    <string name="title_country_language">Pays/Langue</string>
+    <string name="title_template">Modèle</string>
+    <string name="settings_night_mode">Mode nuit</string>
+    <string name="settings_version">Version</string>
+
+    <!--网络或请求错误返回提示-->
+    <string name="err_return_no_connection">Hey~ Sil vous plaît vérifier votre réseau</string>
+    <string name="err_return_timeout">Délai de chargement</string>
+    <string name="err_return_unknown">Erreur inconnue</string>
+
+    <string name="exit_notice">Sortir à nouveau</string>
+
+    <!--设置中的收藏-分享-历史 -->
+    <string name="settings_favor">Collection</string>
+    <string name="settings_histroy">Histoire</string>
+    <string name="settings_share">Partager</string>
+
+    <!--country&language change -->
+    <string name="country_language">Changer de pays et de langue</string>
+    <string name="country_language_button_tx">Sauvegarder et redémarrer</string>
+
+    <!--template change -->
+    <string name="template_change">Modèle</string>
+    <string name="template1">Par défaut</string>
+    <string name="template2">Modèle2</string>
+    <string name="template3">Modèle3</string>
+    <string name="template4">Modèle4</string>
+    <string name="template5">Modèle5</string>
+    <string name="template6">Modèle6</string>
+    <string name="template7">Modèle7</string>
+    <string name="template8">TModèle8</string>
+    <string name="template9">Modèle9</string>
+    <string name="template10">Modèle10</string>
+
+
+</resources>

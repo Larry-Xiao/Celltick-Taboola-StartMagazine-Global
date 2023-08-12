@@ -1,0 +1,128 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:textColorPrimary">@color/toolbarTitleTextColor</item>
+
+
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowActionBar">false</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="stateSelector">@color/state_selector_light</item>-->
+        <!--<item name="android:windowBackground">@color/window_background</item>-->
+        <!--<item name="accentColor">@color/accent</item>-->
+        <!--<item name="iconColor">@color/primary</item>-->
+        <!--<item name="android:textColor">@color/black</item>-->
+        <!--<item name="windowBackground">@color/window_background</item>-->
+        <!--<item name="fabCircleColor">@color/fabCircleColor_light</item>-->
+        <!--<item name="actionOverflowMenuStyle">@style/OverflowMenu</item>-->
+        <!--<item name="listBackground">@color/list_background</item>-->
+        <!--<item name="colorControlActivated">@color/primary</item>-->
+    </style>
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.DayNight">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowActionBar">false</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+    <!--</style>-->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--设置 toolbar 弹出的OptionMenu 背景颜色和字体颜色-->
+    <style name="MyOptionMenuStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/window_background</item>
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="android:background">@color/bg_tabLayout</item>
+    </style>
+
+    <style name="CollapsingToolbarTitleStyle.GsonView" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TabLayoutStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--设置 toolbar 的icon与title的间距-->
+    <style name="NoSpaceActionBarTheme" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+    </style>
+
+    <!--设置 toolbar title字体大小-->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--右上角小圆点菜单-->
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!--兼容Api 21之前的版本 -->
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <!--主页tabs样式-->
+    <style name="main_bottom_tab">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">0.0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/main_bottom_tab_font_size</item>
+        <item name="android:textColor">@color/main_bottom_tab_textcolor</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">@dimen/main_bottom_tab_padding_top</item>
+    </style>
+
+
+    <style name="style_textsize">
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="style_textsize1">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--模糊-->
+    </style>
+
+
+    <style name="date_picker_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/date_picker_bg</item>
+    </style>
+
+</resources>

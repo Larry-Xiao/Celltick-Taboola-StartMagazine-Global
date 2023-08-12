@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SM_API Demo</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="header_text">The Header</string>
+    <string name="footer_text">The Footer</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">Memuat…</string>
+    <string name="list_footer_network_error">Klik untuk melanjutkan memuat</string>
+    <string name="list_footer_end">Tidak lagi</string>
+
+    <!--time display format-->
+    <string name="publish_date_year">tahun yang lalu</string>
+    <string name="publish_date_month">bulan lalu</string>
+    <string name="publish_date_day">hari yang lalu</string>
+    <string name="publish_date_hour">jam yang lalu</string>
+    <string name="publish_date_min">menit yang lalu</string>
+    <string name="publish_date_now">Sekarang</string>
+
+    <!-- additional categories -->
+    <string name="category_top">Direkomendasikan</string>
+    <string name="category_video">Video</string>
+
+    <!-- country language dialog -->
+    <string name="dialog_cancel">Batalkan</string>
+    <string name="dialog_submit">Simpan dan mulai kembali</string>
+    <string name="dialog_title">Informasi dasar</string>
+    <string name="dialog_btn_cancel">Batalkan</string>
+    <string name="dialog_btn_ok">Bagikan</string>
+
+    <!--tabs 简便用 first second third-->
+    <string name="main_tab_first">Rumah</string>
+    <string name="main_tab_second">Video</string>
+    <string name="main_tab_third">Menyenangkan</string>
+    <string name="main_tab_forth">Pengaturan</string>
+
+    <string name="title_country_language">Negara/Bahasa</string>
+    <string name="title_template">Templat</string>
+    <string name="settings_night_mode">Mode malam</string>
+    <string name="settings_version">Versi</string>
+
+    <!--网络或请求错误返回提示 -->
+    <string name="err_return_no_connection">Hei ~ Silakan periksa jaringan Anda</string>
+    <string name="err_return_timeout">Muat batas waktu</string>
+    <string name="err_return_unknown">Kesalahan tidak dikenal</string>
+
+    <string name="exit_notice">Keluar lagi</string>
+
+    <!--设置中的收藏-分享-历史 -->
+    <string name="settings_favor">Koleksi</string>
+    <string name="settings_histroy">Sejarah</string>
+    <string name="settings_share">Bagikan</string>
+
+    <!--country&language change -->
+    <string name="country_language">Ubah negara dan bahasa</string>
+    <string name="country_language_button_tx">Simpan dan mulai kembali</string>
+
+    <!--template change -->
+    <string name="template_change">Pilih template tampilan halaman detail</string>
+    <string name="template1">Default</string>
+    <string name="template2">Templat2</string>
+    <string name="template3">Templat3</string>
+    <string name="template4">Templat4</string>
+    <string name="template5">Templat5</string>
+    <string name="template6">Templat6</string>
+    <string name="template7">Templat7</string>
+    <string name="template8">Templat8</string>
+    <string name="template9">Templat9</string>
+    <string name="template10">Templat10</string>
+
+
+</resources>

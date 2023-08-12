@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2F4F4F</color>
+    <color name="colorPrimaryDark">#2F4F4F</color>
+    <color name="colorAccent">#8B0A50</color>
+
+    <color name="red">#ff0000</color>
+    <color name="black">#000000</color>
+
+    <color name="toolbarTitleTextColor">#ffffff</color>
+    <color name="window_background">@android:color/white</color>
+    <color name="bg_theme">#F5F5F5</color>
+    <color name="bg_settings_card_clicked">#C5C1AA</color>
+    <color name="bg_settings_card_stoke">#CFCFCF</color>
+    <color name="bg_settings_card1_shape">@android:color/white</color>
+    <color name="bg_settings_card2_shape">@android:color/white</color>
+    <color name="bg_settings_card3_shape">@android:color/white</color>
+    <color name="bg_country_language_spinner_pop">@android:color/white</color>
+    <color name="settings_text_color">@color/colorPrimary</color>
+    <color name="country_language_text_color">@color/colorPrimary</color>
+    <color name="country_language_spinner_hint_text_color">@color/colorAccent</color>
+    <color name="save_restart_btn_text_color">@android:color/white</color>
+    <color name="bg_save_restart_btn">@color/colorPrimary</color>
+    <color name="bg_save_restart_btn_pressed">#458B74</color>
+    <color name="accent">#03A9F4</color>
+    <color name="white">#ffffff</color>
+    <color name="bg_tabLayout">#ffffff</color>
+    <color name="tabLayoutTextColor">#2F4F4F</color>
+    <color name="bg_feed_list_cardview">#ffffff</color>
+    <color name="bg_webview">#ffffff</color>
+    <color name="bg_country_language">#ffffff</color>
+    <color name="bg_userinfo_dialog">#ffffff</color>
+    <color name="bg_userinfo_dialog_clicked">#C2C2C2</color>
+
+    <color name="color_ff">#F0F0F0</color>
+    <color name="color_00">#8A000000</color>
+
+
+    <color name="article_title_color">#000000</color>
+    <color name="article_sub_color">#2F4F4F</color>
+    <color name="image_bg_color">#E5E5E5</color>
+
+    <color name="lightslategray">#778899</color>
+    <color name="colorPrimaryDarkDarkTheme">#4a4959</color>
+    <color name="primary_dark">@android:color/white</color>
+
+    <color name="primary">@android:color/white</color>
+    <color name="fabCircleColor_light">#f50057</color>
+    <color name="list_background">#E5E5E5</color>
+    <color name="color_tablayout_below_line">#E5E5E5</color>
+    <color name="color_main_bottom_tabs_bg">#EBEBEB</color>
+    <color name="color_webview_toolbar_bg">#EBEBEB</color>
+    <color name="color_banner_notice_bg">#C6E2FF</color>
+
+    <color name="grid_text_color">#2F4F4F</color>
+    <color name="grid_clicked_color">#dadada</color>
+
+
+
+    <color name="date_picker_bg">#FFFFFF</color>
+    <color name="date_picker_divider">#11112233</color>
+    <color name="date_picker_text_light">#59B29C</color>
+    <color name="date_picker_text_dark">#333333</color>
+
+    <color name="main_bg">#F0F0F0</color>
+    <color name="select_title_text">#B0B0B0</color>
+    <color name="current_time_bg">#FFFFFF</color>
+    <color name="current_time_text">#666666</color>
+    <color name="selected_time_text">#57C5E8</color>
+
+
+</resources>

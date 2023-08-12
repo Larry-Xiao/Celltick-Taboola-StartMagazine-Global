@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/bg_country_language"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/NoSpaceActionBarTheme"
+        android:id="@+id/tb1_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:clipToPadding="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/MyOptionMenuStyle"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/country_language_text_color"
+            android:text="@string/country_language"/>
+
+
+        <Spinner
+            android:id="@+id/spinner_country"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:popupBackground="@color/bg_country_language_spinner_pop"
+            android:background="@drawable/spinner_selector"></Spinner>
+        <Spinner
+            android:id="@+id/spinner_language"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:popupBackground="@color/bg_country_language_spinner_pop"
+            android:background="@drawable/spinner_selector"></Spinner>
+        
+        <Button
+            android:id="@+id/btn_save_restart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="45dp"
+            android:layout_margin="30dp"
+            android:textAllCaps="false"
+            android:textColor="@color/save_restart_btn_text_color"
+            android:background="@drawable/btn_save_restart_selector"
+            android:text="@string/country_language_button_tx"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

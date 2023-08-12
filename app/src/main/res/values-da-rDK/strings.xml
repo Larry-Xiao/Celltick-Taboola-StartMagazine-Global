@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SM_API Demo</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="header_text">The Header</string>
+    <string name="footer_text">The Footer</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">Loading…</string>
+    <string name="list_footer_network_error">Klik for at fortsætte med at indlæse</string>
+    <string name="list_footer_end">Ikke mere</string>
+
+    <!--time display format-->
+    <string name="publish_date_year">år siden</string>
+    <string name="publish_date_month">måneder siden</string>
+    <string name="publish_date_day">dage siden</string>
+    <string name="publish_date_hour">timer siden</string>
+    <string name="publish_date_min">minutter siden</string>
+    <string name="publish_date_now">nu</string>
+
+    <!-- additional categories -->
+    <string name="category_top">Anbefaling</string>
+    <string name="category_video">video</string>
+
+    <!-- country language dialog -->
+    <string name="dialog_cancel">aflyst</string>
+    <string name="dialog_submit">Gem og genstart</string>
+    <string name="dialog_title">Grundlæggende oplysninger</string>
+    <string name="dialog_btn_cancel">aflyst</string>
+    <string name="dialog_btn_ok">andel</string>
+
+    <!--tabs 简便用 first second third-->
+    <string name="main_tab_first">Hjem</string>
+    <string name="main_tab_second">video</string>
+    <string name="main_tab_third">Pleasure</string>
+    <string name="main_tab_forth">Opsæt</string>
+
+    <string name="title_country_language">land/sprog</string>
+    <string name="title_template">Skabelon</string>
+    <string name="settings_night_mode">Nattilstand</string>
+    <string name="settings_version">Edition</string>
+
+    <!--网络或请求错误返回提示 -->
+    <string name="err_return_no_connection">Hej ~ Tjek venligst dit netværk</string>
+    <string name="err_return_timeout">Indlæs timeout</string>
+    <string name="err_return_unknown">Ukendt fejl</string>
+
+    <string name="exit_notice">Afslut igen</string>
+
+    <!--设置中的收藏-分享-历史 -->
+    <string name="settings_favor">Saml</string>
+    <string name="settings_histroy">Historie</string>
+    <string name="settings_share">andel</string>
+
+    <!--country&language change -->
+    <string name="country_language">Skift land og sprog</string>
+    <string name="country_language_button_tx">Gem og genstart</string>
+
+    <!--template change -->
+    <string name="template_change">Vælg detaljer side skærm skabelon</string>
+    <string name="template1">Standard</string>
+    <string name="template2">Skabelon2</string>
+    <string name="template3">Skabelon3</string>
+    <string name="template4">Skabelon4</string>
+    <string name="template5">Skabelon5</string>
+    <string name="template6">Skabelon6</string>
+    <string name="template7">Skabelon7</string>
+    <string name="template8">Skabelon8</string>
+    <string name="template9">Skabelon9</string>
+    <string name="template10">Skabelon10</string>
+
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/bg_country_language"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/NoSpaceActionBarTheme"
+        android:id="@+id/template_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:clipToPadding="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/MyOptionMenuStyle"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/country_language_text_color"
+            android:text="@string/template_change"/>
+
+        <RadioGroup
+            android:id="@+id/rg_templates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/rb_template_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/template1" />
+            <RadioButton
+                android:id="@+id/rb_template2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/template2" />
+            <RadioButton
+                android:id="@+id/rb_template3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/template3" />
+            <RadioButton
+                android:id="@+id/rb_template4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/template4" />
+            <RadioButton
+                android:id="@+id/rb_template5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/template5" />
+            <RadioButton
+                android:id="@+id/rb_template6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/template6" />
+            <RadioButton
+                android:id="@+id/rb_template7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/template7" />
+            <RadioButton
+                android:id="@+id/rb_template8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/template8" />
+            <RadioButton
+                android:id="@+id/rb_template9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/template9" />
+            <RadioButton
+                android:id="@+id/rb_template10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/template10" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+</LinearLayout>

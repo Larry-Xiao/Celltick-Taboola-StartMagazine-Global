@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SM_API Demo</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="header_text">The Header</string>
+    <string name="footer_text">The Footer</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">लदान…</string>
+    <string name="list_footer_network_error">लोडिंग जारी रखने के लिए क्लिक करें</string>
+    <string name="list_footer_end">अब और नहीं</string>
+
+    <!--time display format-->
+    <string name="publish_date_year">साल पहले</string>
+    <string name="publish_date_month">महीने पहले</string>
+    <string name="publish_date_day">दिन पहले</string>
+    <string name="publish_date_hour">घंटे पहले</string>
+    <string name="publish_date_min">मिनट पहले</string>
+    <string name="publish_date_now">अब</string>
+
+    <!-- additional categories -->
+    <string name="category_top">अनुशंसा</string>
+    <string name="category_video">वीडियो</string>
+
+    <!-- country language dialog -->
+    <string name="dialog_cancel">रद्द</string>
+    <string name="dialog_submit">सहेजें और पुनः आरंभ करें</string>
+    <string name="dialog_title">बुनियादी जानकारी</string>
+    <string name="dialog_btn_cancel">रद्द</string>
+    <string name="dialog_btn_ok">शेयर</string>
+
+    <!--tabs 简便用 first second third-->
+    <string name="main_tab_first">घर</string>
+    <string name="main_tab_second">वीडियो</string>
+    <string name="main_tab_third">आनंद</string>
+    <string name="main_tab_forth">सेट करें</string>
+
+    <string name="title_country_language">देश/भाषा</string>
+    <string name="title_template">खाका</string>
+    <string name="settings_night_mode">रात्रि विधा</string>
+    <string name="settings_version">संस्करण</string>
+
+    <!--网络或请求错误返回提示 -->
+    <string name="err_return_no_connection">हे ~ कृपया अपने नेटवर्क की जाँच करें</string>
+    <string name="err_return_timeout">लोड समय समाप्त</string>
+    <string name="err_return_unknown">अज्ञात त्रुटि</string>
+
+    <string name="exit_notice">फिर से बाहर निकलें</string>
+
+    <!--设置中的收藏-分享-历史 -->
+    <string name="settings_favor">एकत्र</string>
+    <string name="settings_histroy">इतिहास</string>
+    <string name="settings_share">शेयर</string>
+
+    <!--country&language change -->
+    <string name="country_language">देश और भाषा बदलें</string>
+    <string name="country_language_button_tx">सहेजें और पुनः आरंभ करें</string>
+
+    <!--template change -->
+    <string name="template_change">विवरण पृष्ठ प्रदर्शन टेम्पलेट चुनें</string>
+    <string name="template1">चूक</string>
+    <string name="template2">खाका2</string>
+    <string name="template3">खाका3</string>
+    <string name="template4">खाका4</string>
+    <string name="template5">खाका5</string>
+    <string name="template6">खाका6</string>
+    <string name="template7">खाका7</string>
+    <string name="template8">खाका8</string>
+    <string name="template9">खाका9</string>
+    <string name="template10">खाका10</string>
+
+
+</resources>

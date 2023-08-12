@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>United State (US)</item>
+        <item>Algeria (DZ)</item>
+        <item>Afghanistan (AF)</item>
+        <item>Argentina (AR)</item>
+        <item>Australia (AU)</item>
+        <item>Bahamas (BS)</item>
+        <item>Bangladesh (BD)</item>
+        <item>Brazil (BR)</item>
+        <item>Cambodia (KH)</item>
+        <item>Canada (CA)</item>
+        <item>Chile (CL)</item>
+        <item>Costa Rica (CR)</item>
+        <item>China (CN)</item>
+        <item>Croatia (HR)</item>
+        <item>Egypt (EG)</item>
+        <item>France (FR)</item>
+        <item>Germany (DE)</item>
+        <item>Greece (GR)</item>
+        <item>Honduras (HN)</item>
+        <item>Hong Kong (HK)</item>
+        <item>Hungary (HU)</item>
+        <item>India (IN)</item>
+        <item>Indonesia (ID)</item>
+        <item>Iran (IR)</item>
+        <item>Iraq (IQ)</item>
+        <item>Israel (IL)</item>
+        <item>Italy (IT)</item>
+        <item>Japan (JP)</item>
+        <item>Kazakhstan (KZ)</item>
+        <item>Kenya (KE)</item>
+        <item>Korea (KR)</item>
+        <item>Mexico (MX)</item>
+        <item>Malaysia (MY)</item>
+        <item>Morocco (MA)</item>
+        <item>Nepal (NP)</item>
+        <item>Netherlands (NL)</item>
+        <item>New Zealand (NZ)</item>
+        <item>Niger (NE)</item>
+        <item>Nigeria (NG)</item>
+        <item>Pakistan (PK)</item>
+        <item>Philippines (PH)</item>
+        <item>Poland (PL)</item>
+        <item>Portugal (PT)</item>
+        <item>Russia (RU)</item>
+        <item>Saudi Arabia (SA)</item>
+        <item>Singapore (SG)</item>
+        <item>South Africa (ZA)</item>
+        <item>Spain (SP)</item>
+        <item>Sri Lanka (LK)</item>
+        <item>Taiwan (TW)</item>
+        <item>Thailand (TH)</item>
+        <item>Turkey (TR)</item>
+        <item>Ukraine (UA)</item>
+        <item>UAE (AE)</item>
+        <item>United Kingdom (GB)</item>
+        <item>Viet Nam (VN)</item>
+        <item>CotedIvoire (CI)</item>
+        <item>Ghana (GH)</item>
+        <item>Senegal (SN)</item>
+        <item>Cameroon (CM)</item>
+        <item>Mali (ML)</item>
+        <item>Tanzania (TZ)</item>
+        <item>Zambia (ZM)</item>
+        <item>Togo (TG)</item>
+
+
+    </string-array>
+    <string-array name="languages">
+        <item>English (en)</item>
+        <item>Español (es)</item>
+        <item>Français (fr)</item>
+        <item>Deutsch (de)</item>
+        <item>Italiano (it)</item>
+        <item>Português (pt)</item>
+        <item>polski (pl)</item>
+        <item>русский язык (ru)</item>
+        <item>Türkçe (tr)</item>
+        <item>Українська (uk)</item>
+        <item>Bahasa Indonesia (id)</item>
+        <item>বাংলা (bn)</item>
+        <item>עברית (he)</item>
+        <item>Tiếng Việt (vi)</item>
+        <item>हिन्दी (hi)</item>
+        <item>বनेपाली (ne)</item>
+        <item>العربية(ar)</item>
+        <item>日本語 (ja)</item>
+        <item>中文 (zh)</item>
+        <item>繁体中文 (zh)</item>
+        <item>Pushto (ps)</item>
+        <item>Nederlands (nl)</item>
+        <item>hrvatski (hr)</item>
+        <item>ελληνικά (el)</item>
+        <item>한국의 (ko)</item>
+        <item>Bahasa Melayu (ms)</item>
+        <item>ไทย (th)</item>
+        <item>اردو (ur)</item>
+        <item>Afrikaans (af)</item>
+        <item>ខ្មែរ (km)</item>
+        <item>தமிழ் (ta)</item>
+    </string-array>
+
+
+
+</resources>

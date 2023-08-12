@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SM_API Demo</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="header_text">The Header</string>
+    <string name="footer_text">The Footer</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">กำลังโหลด…</string>
+    <string name="list_footer_network_error">คลิกเพื่อโหลดต่อไป</string>
+    <string name="list_footer_end">ไม่มีอีกแล้ว</string>
+
+    <!--time display format-->
+    <string name="publish_date_year">ปีที่แล้ว</string>
+    <string name="publish_date_month">เดือนที่แล้ว</string>
+    <string name="publish_date_day">วันที่แล้ว</string>
+    <string name="publish_date_hour">ชั่วโมงที่ผ่านมา</string>
+    <string name="publish_date_min">นาทีที่ผ่านมา</string>
+    <string name="publish_date_now">ตอนนี้</string>
+
+    <!-- additional categories -->
+    <string name="category_top">คำแนะนำ</string>
+    <string name="category_video">วีดีโอ</string>
+
+    <!-- country language dialog -->
+    <string name="dialog_cancel">ยกเลิก</string>
+    <string name="dialog_submit">บันทึกและรีสตาร์ท</string>
+    <string name="dialog_title">ข้อมูลพื้นฐาน</string>
+    <string name="dialog_btn_cancel">ยกเลิก</string>
+    <string name="dialog_btn_ok">หุ้น</string>
+
+    <!--tabs 简便用 first second third-->
+    <string name="main_tab_first">บ้าน</string>
+    <string name="main_tab_second">วีดีโอ</string>
+    <string name="main_tab_third">ความสุข</string>
+    <string name="main_tab_forth">จัดตั้งขึ้น</string>
+
+    <string name="title_country_language">ประเทศ/ภาษา</string>
+    <string name="title_template">แบบ</string>
+    <string name="settings_night_mode">โหมดกลางคืน</string>
+    <string name="settings_version">ฉบับ</string>
+
+    <!--网络或请求错误返回提示 -->
+    <string name="err_return_no_connection">เฮ้ ~ โปรดตรวจสอบเครือข่ายของคุณ</string>
+    <string name="err_return_timeout">โหลดหมดเวลา</string>
+    <string name="err_return_unknown">ข้อผิดพลาดที่ไม่รู้จัก</string>
+
+    <string name="exit_notice">ออกอีกครั้ง</string>
+
+    <!--设置中的收藏-分享-历史 -->
+    <string name="settings_favor">เก็บ</string>
+    <string name="settings_histroy">ประวัติศาสตร์</string>
+    <string name="settings_share">หุ้น</string>
+
+    <!--country&language change -->
+    <string name="country_language">เปลี่ยนประเทศและภาษา</string>
+    <string name="country_language_button_tx">บันทึกและรีสตาร์ท</string>
+
+    <!--template change -->
+    <string name="template_change">เลือกเทมเพลตการแสดงหน้ารายละเอียด</string>
+    <string name="template1">ผิดนัด</string>
+    <string name="template2">แบบ2</string>
+    <string name="template3">แบบ3</string>
+    <string name="template4">แบบ4</string>
+    <string name="template5">แบบ5</string>
+    <string name="template6">แบบ6</string>
+    <string name="template7">แบบ7</string>
+    <string name="template8">แบบ8</string>
+    <string name="template9">แบบ9</string>
+    <string name="template10">แบบ10</string>
+
+
+</resources>

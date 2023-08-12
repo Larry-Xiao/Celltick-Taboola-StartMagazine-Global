@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">SM_API Demo</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="header_text">The Header</string>
+    <string name="footer_text">The Footer</string>
+
+    <!--footer-->
+    <string name="list_footer_loading">Φόρτωση…</string>
+    <string name="list_footer_network_error">Κάντε κλικ για να συνεχίσετε τη φόρτωση</string>
+    <string name="list_footer_end">Δεν υπάρχουν άλλα</string>
+
+    <!--time display format-->
+    <string name="publish_date_year">χρόνια πριν</string>
+    <string name="publish_date_month">μήνες πριν</string>
+    <string name="publish_date_day">μέρες πριν</string>
+    <string name="publish_date_hour">ώρες πριν</string>
+    <string name="publish_date_min">Πριν από λίγα λεπτά</string>
+    <string name="publish_date_now">Τώρα</string>
+
+    <!-- additional categories -->
+    <string name="category_top">Συνιστάται</string>
+    <string name="category_video">Βίντεο</string>
+
+    <!-- country language dialog -->
+    <string name="dialog_cancel">Ακύρωση</string>
+    <string name="dialog_submit">Αποθηκεύστε και επανεκκινήστε</string>
+    <string name="dialog_title">Βασικές πληροφορίες</string>
+    <string name="dialog_btn_cancel">Ακύρωση</string>
+    <string name="dialog_btn_ok">Μοιραστείτε</string>
+
+    <!--tabs 简便用 first second third-->
+    <string name="main_tab_first">Αρχική σελίδα</string>
+    <string name="main_tab_second">Βίντεο</string>
+    <string name="main_tab_third">Διασκέδαση</string>
+    <string name="main_tab_forth">Ρύθμιση</string>
+
+    <string name="title_country_language">Χώρα/Γλώσσα</string>
+    <string name="title_template">Πρότυπο</string>
+    <string name="settings_night_mode">Νυχτερινή λειτουργία</string>
+    <string name="settings_version">Έκδοση</string>
+
+    <!--网络或请求错误返回提示 -->
+    <string name="err_return_no_connection">Hey ~ Ελέγξτε το δίκτυό σας</string>
+    <string name="err_return_timeout">Χρονικό όριο φόρτωσης</string>
+    <string name="err_return_unknown">Άγνωστο σφάλμα</string>
+
+    <string name="exit_notice">Έξοδος ξανά</string>
+
+    <!--设置中的收藏-分享-历史 -->
+    <string name="settings_favor">Συλλογή</string>
+    <string name="settings_histroy">Ιστορία</string>
+    <string name="settings_share">Μοιραστείτε</string>
+
+    <!--country&language change -->
+    <string name="country_language">Αλλάξτε χώρα και γλώσσα</string>
+    <string name="country_language_button_tx">Αποθηκεύστε και επανεκκινήστε</string>
+
+    <!--template change -->
+    <string name="template_change">Επιλέξτε το πρότυπο προβολής σελίδας λεπτομερειών</string>
+    <string name="template1">Προεπιλογή</string>
+    <string name="template2">Πρότυπο2</string>
+    <string name="template3">Πρότυπο3</string>
+    <string name="template4">Πρότυπο4</string>
+    <string name="template5">Πρότυπο5</string>
+    <string name="template6">Πρότυπο6</string>
+    <string name="template7">Πρότυπο7</string>
+    <string name="template8">Πρότυπο8</string>
+    <string name="template9">Πρότυπο9</string>
+    <string name="template10">Πρότυπο10</string>
+
+
+</resources>

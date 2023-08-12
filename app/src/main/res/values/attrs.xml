@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="accentColor" format="reference" />
+    <attr name="iconColor" format="reference" />
+    <attr name="windowBackground" format="reference" />
+    <attr name="stateSelector" format="reference" />
+    <attr name="fabCircleColor" format="reference" />
+    <attr name="listBackground" format="reference" />
+
+
+    <attr name="preferenceTheme" format="reference" />
+
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundImageView">
+        <attr name="type" />
+        <attr name="scale" />
+        <attr name="borderRadius" />
+        <attr name="top_left" />
+        <attr name="top_right" />
+        <attr name="bottom_left" />
+        <attr name="bottom_right" />
+    </declare-styleable>
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+    <attr name="scale">
+        <enum name="crop" value="0" />
+        <enum name="fit" value="1" />
+    </attr>
+
+    <attr name="top_left" format="boolean" />
+    <attr name="top_right" format="boolean" />
+    <attr name="bottom_left" format="boolean" />
+    <attr name="bottom_right" format="boolean" />
+
+</resources>
